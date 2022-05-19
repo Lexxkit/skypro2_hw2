@@ -30,11 +30,11 @@ public class GryffindorStudents extends HogwartsStudents {
         int traitsForThisStudent = generosity + honour + bravery;
         int traitsForOpponent = opponent.generosity + opponent.honour + opponent.bravery;
         if (traitsForThisStudent > traitsForOpponent) {
-            System.out.printf("%s is better Gryffindor student than %s", this.getStudentName(), opponent.getStudentName());
+            System.out.printf("%s is better Gryffindor student than %s\n", this.getStudentName(), opponent.getStudentName());
         } else if (traitsForThisStudent < traitsForOpponent) {
-            System.out.printf("%s is better Gryffindor student than %s", opponent.getStudentName(), this.getStudentName());
+            System.out.printf("%s is better Gryffindor student than %s\n", opponent.getStudentName(), this.getStudentName());
         } else {
-            System.out.printf("Both %s and %s are equal Gryffindor student", this.getStudentName(), opponent.getStudentName());
+            System.out.printf("Both %s and %s are equal Gryffindor student\n", this.getStudentName(), opponent.getStudentName());
         }
     }
 

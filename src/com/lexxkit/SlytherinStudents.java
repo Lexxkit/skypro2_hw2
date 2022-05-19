@@ -40,11 +40,11 @@ public class SlytherinStudents extends HogwartsStudents {
         int traitsForThisStudent = cunning + resoluteness + ambition + resoluteness + leadership;
         int traitsForOpponent = opponent.cunning + opponent.resoluteness + opponent.ambition + opponent.resoluteness + opponent.leadership;
         if (traitsForThisStudent > traitsForOpponent) {
-            System.out.printf("%s is better Slytherin student than %s", this.getStudentName(), opponent.getStudentName());
+            System.out.printf("%s is better Slytherin student than %s\n", this.getStudentName(), opponent.getStudentName());
         } else if (traitsForThisStudent < traitsForOpponent) {
-            System.out.printf("%s is better Slytherin student than %s", opponent.getStudentName(), this.getStudentName());
+            System.out.printf("%s is better Slytherin student than %s\n", opponent.getStudentName(), this.getStudentName());
         } else {
-            System.out.printf("Both %s and %s are equal Slytherin student", this.getStudentName(), opponent.getStudentName());
+            System.out.printf("Both %s and %s are equal Slytherin student\n", this.getStudentName(), opponent.getStudentName());
         }
     }
 

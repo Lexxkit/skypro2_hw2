@@ -34,11 +34,11 @@ public class RavenclawStudents extends HogwartsStudents {
         int traitsForThisStudent = intelligence + wisdom + wit + creativity;
         int traitsForOpponent = opponent.intelligence + opponent.wisdom + opponent.wit + opponent.creativity;
         if (traitsForThisStudent > traitsForOpponent) {
-            System.out.printf("%s is better Ravenclaw student than %s", this.getStudentName(), opponent.getStudentName());
+            System.out.printf("%s is better Ravenclaw student than %s\n", this.getStudentName(), opponent.getStudentName());
         } else if (traitsForThisStudent < traitsForOpponent) {
-            System.out.printf("%s is better Ravenclaw student than %s", opponent.getStudentName(), this.getStudentName());
+            System.out.printf("%s is better Ravenclaw student than %s\n", opponent.getStudentName(), this.getStudentName());
         } else {
-            System.out.printf("Both %s and %s are equal Ravenclaw student", this.getStudentName(), opponent.getStudentName());
+            System.out.printf("Both %s and %s are equal Ravenclaw student\n", this.getStudentName(), opponent.getStudentName());
         }
     }
 

@@ -26,7 +26,13 @@ public class Main {
         System.out.println(choyChang);
         System.out.println(drakoMalfoy);
 
+        harryPotter.compareWithStudent(hermioneGrainger);
+        drakoMalfoy.compareWithStudent(grahamMontague);
+        zacharySmith.compareWithStudent(sedrickDigorry);
+        choyChang.compareWithStudent(padmaPatil);
 
+        ronWizley.compareWithHogwartsStudent(gregoryGoyl);
+        justinFlinch.compareWithHogwartsStudent(markusBelbi);
     }
 
     private static int getTrait() {

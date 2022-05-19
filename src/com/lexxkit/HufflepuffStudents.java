@@ -28,11 +28,11 @@ public class HufflepuffStudents extends HogwartsStudents {
         int traitsForThisStudent = diligence + loyalty + honesty;
         int traitsForOpponent = opponent.diligence + opponent.loyalty + opponent.honesty;
         if (traitsForThisStudent > traitsForOpponent) {
-            System.out.printf("%s is better Hufflepuff student than %s", this.getStudentName(), opponent.getStudentName());
+            System.out.printf("%s is better Hufflepuff student than %s\n", this.getStudentName(), opponent.getStudentName());
         } else if (traitsForThisStudent < traitsForOpponent) {
-            System.out.printf("%s is better Hufflepuff student than %s", opponent.getStudentName(), this.getStudentName());
+            System.out.printf("%s is better Hufflepuff student than %s\n", opponent.getStudentName(), this.getStudentName());
         } else {
-            System.out.printf("Both %s and %s are equal Hufflepuff student", this.getStudentName(), opponent.getStudentName());
+            System.out.printf("Both %s and %s are equal Hufflepuff student\n", this.getStudentName(), opponent.getStudentName());
         }
     }
 
